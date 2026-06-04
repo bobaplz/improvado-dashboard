@@ -9,9 +9,9 @@ Data pipeline
 1. Cloud database — Azure SQL
 Provisioned an Azure SQL Database (serverless, free tier) and loaded the three raw exports as-is:
 
-facebook_ads
-google_ads
-tiktok_ads
+- facebook_ads
+- google_ads
+- tiktok_ads
 
 2. Unified model — one table from three
 The three sources don't share a schema, so a single unified_ads table is built in-database via UNION ALL. The key normalization decisions:
