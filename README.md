@@ -4,6 +4,9 @@ Unifying Facebook, Google, and TikTok advertising data into a single cloud data 
 
 (**https://bobaplz.github.io/improvado-dashboard/cross-channel-ad-performance.html**)
 
+<img width="889" height="773" alt="image" src="https://github.com/user-attachments/assets/4a1c31cf-a384-44f5-8ac4-7f67f34badd2" />
+
+
 **Overview**
 The task: take raw advertising exports from three platforms, unify them into one cloud database, and build a one-page dashboard surfacing cross-channel performance. This repo contains the end-to-end work — the data model, the unification logic, and the live interactive dashboard.
 The dataset is 30 days of January 2024 daily campaign data: 330 rows across 3 platforms, 12 campaigns.
